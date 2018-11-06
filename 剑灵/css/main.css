@@ -1,0 +1,333 @@
+.fl{
+    float: left;
+}
+.fr{
+    float: right;
+}
+header .nav1{
+    width: 100%;
+    height: 44px;
+}
+header nav .icon1{
+    background: url("../img/top.jpg") no-repeat;
+}
+i{
+    display: inline-block;
+}
+/*注意i和.tx之间不能有空格*/
+header .nav1 i.tx,header .nav1 i.kq{
+    width: 230px;
+    height: 42px;
+    float: left;
+}
+header .nav1 i.tx{
+    background-position: 0 -41px;
+}
+header .nav1 i.kq{
+    background-position: 0 -83px;
+}
+header .nav1 i.ip{
+    width: 96px;
+    height: 20px;
+    background-position: 0 -137px;
+    float: right;
+    margin-top: 14px;
+}
+
+nav .inner{
+    width: 1225px;
+    height: 53px;
+    margin: auto;
+}
+nav .yx ul{
+    float: right;
+}
+
+nav .yx li{
+   margin-top: 14px;
+    width: 74px;
+    height: 22px;
+    float: left;
+    border-right: 1px solid #bfc6d7;
+    margin-right: 15px;
+}
+nav .yx a{
+    font-size: 15px;
+    color: #464646;
+}
+nav  .ip{
+    position: relative;
+}
+nav .dw a{
+    font-size: 8px;
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%)
+}
+
+
+/*===============nav1   e========================*/
+nav .nav2{
+    width:100%;
+    height:77px;
+    background: #2a2f37;
+}
+nav .nav2 .inner{
+    width: 1225px;
+    height: 98px;
+    margin: auto;
+}
+nav .nav2 .icon2{
+    background: url("../img/spr%20(1).png");
+}
+nav .nav2 .ll{
+    width: 133px;
+    height: 76px;
+   background-position: 0 -233px;
+}
+nav .nav2 .jr{
+    width: 194px;
+    height: 77px;
+    background-position: 0 -77px;
+}
+nav .nav2 .icon3{
+    background: url("../img/btns.jpg");
+}
+nav .nav2 .xz{
+    width: 669px;
+    height: 77px;
+    background-position: 0 0;
+}
+/*====================nav   e==========================*/
+.banner .laye{
+    width: 100%;
+    height: 27px;
+    background: rgba(0,0,0,0.8);
+    position: absolute;
+    top:0;
+}
+.banner{
+    position: relative;
+}
+.banner .inner{
+    width: 1263px;
+    margin: auto;
+}
+.banner .laye .inner{
+    width: 569px;
+    height: 27px;
+    margin: auto;
+    position: relative;
+}
+.banner .laye  li{
+    float: left;
+    margin-right: 30px;
+    font-size: 15px;
+    color: #858894;
+    line-height: 27px;
+}
+.banner .inner .icon3{
+    background: url("../img/btn-spr.png");
+}
+.banner .inner i.sj{
+    width: 76px;
+    height: 84px;
+    background-position: -27px -93px;
+    position: absolute;
+    top: 295px;
+    left: 1010px;
+}
+.banner .inner .tm{
+    width:238px;
+    height: 57px;
+    background-position: -16px -21px;
+    position: absolute;
+    top: 620px;
+    left: 524px;
+}
+.banner .inner .icon4{
+    background: url("../img/enter-btn.png");
+}
+
+.banner .inner .xq{
+    width:357px;
+    height: 224px;
+    background-position: -20px -416px;
+    position: absolute;
+    top: 685px;
+    left: 120px;
+}
+.banner .inner .xb{
+    width:215px;
+    height: 260px;
+    background-position: -440px -405px;
+    position: absolute;
+    top: 685px;
+    left: 420px;
+}
+.banner .inner .hd{
+    width:224px;
+    height: 219px;
+    background-position: -756px -129px;
+    position: absolute;
+    top: 700px;
+    left: 634px;
+}
+.banner .inner .tg{
+    width:307px;
+    height: 248px;
+    background-position: -1037px -129px;
+    position: absolute;
+    top: 700px;
+    left: 815px;
+}
+.xiat .sinner{
+    margin: auto;
+    position: relative;
+}
+.xiat .sinner .bx{
+    width: 934px;
+    height: 1045px;
+    position: absolute;
+    top:0;
+    bottom:0;
+    left:0;
+    right:0;
+    margin: auto;
+}
+
+.xiat .sinner .one{
+    position: absolute;
+    top: 65px;
+    left: 230px;
+    width: 300px;
+    height: 350px;
+}
+.xiat .sinner .two{
+    position: absolute;
+    top: 310px;
+    left: 530px;
+    width: 350px;
+    height: 300px;
+}
+.xiat .sinner .three{
+    position: absolute;
+    width: 350px;
+    height: 300px;
+    top: 415px;
+    left: 180px;
+}
+.xiat .sinner .four{
+    position: absolute;
+    top: 483px;
+    left: 530px;
+    width: 300px;
+    height: 350px;
+}
+.xiat .sinner .five{
+    position: absolute;
+    top: 589px;
+    left: 230px;
+    width: 300px;
+    height: 350px;
+
+}
+.xiat .sinner .six{
+    position: absolute;
+    top: 833px;
+    left: 422px;
+    width: 350px;
+    height: 250px;
+}
+.xiat  .hf{
+    width: 1263px;
+    height: 204px;
+    background: black;
+}
+.xiat  .hf .inner{
+    position: relative;
+    width: 934px;
+    height: 204px;
+    overflow: hidden;
+}
+.xiat  .hf .inner img{
+    position: absolute;
+    top:50%;
+    transform:translate(0,-50%)
+}
+.xiat  .hf .icon5{
+    background: url("../img/spr.png");
+}
+.xiat  .hf  .zm{
+    width: 127px;
+    height: 20px;
+    background-position:0 -637px;
+    top:50%;
+    transform:translate(0,-50%);
+    position: absolute;
+    left: 200px;
+}
+.xiat  .hf .jli{
+    margin-top: 20px;
+}
+
+.xiat  .hf ul{
+    width: 1000px;
+  margin-left: 347px;
+}
+.xiat  .hf li{
+    float: left;
+    border-right: 1px solid #492b12;
+    padding:3px 3px;
+    font-size: 12px;
+    color: #a5a5a5;
+}
+.xiat  .hf a{
+    font-size: 12px;
+    color: #a5a5a5;
+    line-height: 13px;
+}
+.xiat  .hf .last{
+    border:0;
+}
+.xiat  .hf p{
+    color:#a5a5a5;
+    margin-left: 350px;
+    font-size: 12px;
+}
+.xiat .lst .ltu{
+    margin-left: 350px;
+    vertical-align: middle;
+    margin-top: 5px;
+
+}
+.xiat .lst .lul{
+    margin-left: 362px;
+}
+.xiat .lst  li{
+    vertical-align: middle;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
